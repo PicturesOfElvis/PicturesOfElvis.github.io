@@ -1,0 +1,27 @@
+html{
+	
+	margin: none 
+}
+
+@font-face {
+  font-family: 'Elvish Presley Regular';
+  src: url('elvish-presley-regular.ttf');
+}
+
+
+h1{
+	text-align: center;
+	font-family: Elvish Presley Regular;
+}
+
+#poster{
+	height: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button{
+	margin: 0;
+	position: absolute;
+}
