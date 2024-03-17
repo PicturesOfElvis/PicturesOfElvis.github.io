@@ -1,3 +1,5 @@
+window.addEventListener('touchstart', (e) => e.preventDefault(), { passive: false})
+
 class game{} 
 
 
@@ -110,7 +112,7 @@ let winScore = 10
 
 function setup(){
 	createCanvas(windowWidth, windowHeight)
-	el = new elvis(100,650)
+	el = new elvis(100,height -150)
 	textSize(150)
 
 
