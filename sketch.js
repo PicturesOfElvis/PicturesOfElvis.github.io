@@ -101,7 +101,7 @@ function preload(){
 	guinnessPng = loadImage('guinness.png')
 	commander = loadSound('comradecommander.mp3')
 	yesYES = loadSound('yesYES.mp3')
-	yalehouse = loadSound('yalehouse.wav')
+	yalehouse = loadSound('yalehouse.mp3')
 	scream = loadSound('scream.mp3')
 }
 
