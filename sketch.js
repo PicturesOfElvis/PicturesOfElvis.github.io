@@ -112,7 +112,7 @@ let winScore = 10
 
 function setup(){
 	createCanvas(windowWidth, windowHeight)
-	el = new elvis(100,height -150)
+	el = new elvis(100,height -250)
 	textSize(150)
 
 
@@ -142,7 +142,7 @@ function draw(){
 	for(let i = 0; i < pints.length; i++){
 		pints[i].update()
 		pints[i].show()	
-		if(pints[i].y > height - pints[i].height){
+		if(pints[i].y > height - pints[i].height + 100){
 			pints.splice(i, 1)
 			scream.play()
 			if (score < 10){
