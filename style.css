@@ -12,6 +12,11 @@ html{
 h1{
 	text-align: center;
 	font-family: Elvish Presley Regular;
+	font-size: 25vh;
+	color: green;
+	text-shadow: 2px 2px 5px orange;
+	background-color: #00000030;
+
 }
 
 #poster{
@@ -24,4 +29,5 @@ h1{
 #button{
 	margin: 0;
 	position: absolute;
+	left: 50%;
 }
